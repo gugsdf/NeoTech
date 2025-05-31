@@ -29,7 +29,6 @@ html {
     flex-direction: column;
     align-items: center;
     margin-top: -80px;
-    /* sobe tudo um pouco */
 }
 
 .logo-intro {
@@ -55,7 +54,6 @@ html {
     }
 }
 
-/* Começa Aq Funcionalidades*/
 .funcoes-title {
     text-align: center;
     margin-bottom: 20px;
@@ -128,7 +126,6 @@ html {
     border-radius: 20px;
 }
 
-/* Começa Aq Planos*/
 .main-title {
     text-align: center;
     margin-bottom: 20px;
@@ -176,7 +173,6 @@ html {
     border-top: 6px solid #B958F5;
 }
 
-/* Título do plano */
 .class-plan__title {
     text-transform: uppercase;
     font-size: 20px;
@@ -188,7 +184,6 @@ html {
     text-align: center;
 }
 
-/* Preço */
 .pricing-plan__price {
     font-size: 18px;
     font-weight: bold;
@@ -197,7 +192,6 @@ html {
     color: #555;
 }
 
-/* Lista de recursos */
 .pricing-plan__features {
     list-style: none;
     margin-top: 20px;
@@ -208,22 +202,18 @@ html {
     font-size: 15px;
 }
 
-/* Ícones ✔️ e ❌ */
 .check {
     color: #4CAF50;
-    /* verde */
     font-weight: bold;
     margin-right: 8px;
 }
 
 .cross {
     color: #E53935;
-    /* vermelho */
     font-weight: bold;
     margin-right: 8px;
 }
 
-/* Botão de chamada para ação */
 .pricing-plan__cta {
     margin-top: 20px;
     display: inline-block;
@@ -245,7 +235,6 @@ html {
     background: linear-gradient(90deg, #4db867, #3b80e0, #9b46db);
 }
 
-/* Acaba aq */
 #intro.fade-out {
     opacity: 0;
     pointer-events: none;
@@ -256,14 +245,15 @@ a {
 }
 
 .conteudo {
-    display: block; /* ou flex se for necessário */
+    display: block;
+    /* ou flex se for necessário */
     background-color: rgb(255, 255, 255);
     width: 100%;
     min-height: 100vh;
     height: auto;
     z-index: 3;
-    overflow: visible; /* ✅ Permite o conteúdo "vazar" da seção */
-  }
+    overflow: visible;
+}
 
 .slides-wrapper {
     overflow: hidden;
@@ -345,11 +335,8 @@ a {
     width: 100%;
     position: relative;
     display: inline-block;
-    /* Garante que o efeito siga o tamanho do texto */
     text-decoration: none;
-    /* se quiser tirar sublinhado padrão */
     padding: 4px 8px;
-    /* opcional, para dar espaço ao hover */
     transition: color 0.3s ease;
     text-align: center;
 }
@@ -472,7 +459,6 @@ a {
     height: 45px;
 }
 
-/* Cores personalizadas */
 .btn-float.whatsapp {
     background-color: #64D072;
 }
